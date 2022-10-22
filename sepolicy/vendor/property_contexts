@@ -61,3 +61,6 @@ vendor.audio                            u:object_r:public_vendor_system_prop:s0
 
 #for vendor/build.prop
 vendor.all.modules.ready                   u:object_r:public_vendor_system_prop:s0
+
+#Chang's sample logger
+vendor.chang.sample_logger_daemon.enabled           u:object_r:public_vendor_system_prop:s0
