@@ -33,6 +33,9 @@ allow init debugfs_tracing_debug:dir mounton;
 allow init debugfs:file { write };
 allow init debugfs_tracing:file { write };
 
+#Chang's edit
+allow init mydaemon_exec:file{ open read getattr execute };
+
 allow init block_device:lnk_file { relabelfrom };
 allow init userdata_block_device:lnk_file { relabelto };
 allow init frp_block_device:lnk_file { relabelto };

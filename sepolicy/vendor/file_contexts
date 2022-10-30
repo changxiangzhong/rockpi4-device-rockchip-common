@@ -43,6 +43,7 @@
 
 #Changs experiment
 /system/bin/mylogger  u:object_r:init_exec:s0
+/system/bin/mydaemon  u:object_r:mydaemon_exec:s0
 
 #for media
 /sys/firmware/devicetree/base/compatible     u:object_r:sysfs_dev:s0

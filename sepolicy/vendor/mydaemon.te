@@ -1,0 +1,8 @@
+type mydaemon, coredomain, domain;
+type mydaemon_exec, exec_type, file_type;
+
+
+init_daemon_domain(mydaemon)
+
+allow mydaemon self:udp_socket read;
+
