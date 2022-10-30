@@ -42,7 +42,7 @@
 /system/bin/ntfsfix  u:object_r:vold_exec:s0
 
 #Changs experiment
-/system/bin/mylogger  u:object_r:init_exec:s0
+/system/bin/mylogger  u:object_r:mylogger_exec:s0
 /system/bin/mydaemon  u:object_r:mydaemon_exec:s0
 
 #for media

@@ -1,0 +1,10 @@
+type mylogger, coredomain, domain;
+type mylogger_exec, exec_type, file_type;
+
+
+init_daemon_domain(mylogger)
+
+allow mylogger self:udp_socket read;
+# We need the following to write to /data/data1, but it violates rules in system
+# allow mylogger system_data_file:file { open read write };
+

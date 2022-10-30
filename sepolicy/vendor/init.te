@@ -59,3 +59,4 @@ allow init vendor_file:file { execute open};
 allow init oemfs:dir { mounton };
 allow init mnt_vendor_file:dir { mounton };
 dontaudit init proc:file { write setattr };
+
